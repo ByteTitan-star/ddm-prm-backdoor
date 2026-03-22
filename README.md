@@ -27,7 +27,6 @@ python python/select_data.py \
     --model_name vicreg \
     --dset CIFAR10 \
     --target 0 \
-    --input_size 224 \
     --device cuda:0
 ```
 Supported strategy: `ddm`, `prm`;
@@ -100,3 +99,14 @@ If you find this repository useful for your research, please cite our paper:
   year      = {2026}
 }
 ```
+## Acknowledgement
+
+We would like to thank the authors of the following work for their insightful research, which inspired our approach:
+
+```bibtex
+@inproceedings{nguyen2025wicked,
+  title={Wicked Oddities: Selectively Poisoning for Effective Clean-Label Backdoor Attacks},
+  author={Nguyen, Quang H and Nguyen, Ngoc-Hieu and Nguyen-Tang, Thanh and Wong, Kok-Seng and Thanh-Tung, Hoang and Doan, Khoa D and others},
+  booktitle={The Thirteenth International Conference on Learning Representations},
+  year={2025}
+}
