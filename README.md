@@ -96,7 +96,7 @@ If you find this repository useful for your research, please cite our paper:
 @inproceedings{wang2026selection,
   title     = {Selection-Aware Poisoning: Boosting Clean-Label Backdoor Attacks via Distribution Deviation and Projection Residual Metrics},
   author    = {Xin Wang},
-  booktitle = {International Conference on Learning Representations (ICLR)},
+  booktitle = {International Joint Conference on Neural Networks (IJCNN)},
   year      = {2026}
 }
 ```
